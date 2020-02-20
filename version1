@@ -1,0 +1,17 @@
+/*Find 3 exercises that you have did in 3 ways, or do 3 exercises in 3 ways if you haven’t did that yet.
+Create 3 repository’s (each exercise get one repo).
+Add 3 branches in every repo (each branch has a different solution).
+Upload 3 photos (one photo to each branch) to your README.md showing your code and the console part, 
+explain your steps and links to your resources (mdn or so).*/ 
+
+
+/*Calculate the three bills including tips: €22.35 + 10%  */
+
+//table 1
+
+// Basic mathematical calculation. FIrst i find out how much is the percentage and i add it to the bill.
+let bill1 = 22.35;
+let calTip =  bill1 * 10 / 100 ; // i use this formula to find out the percentage
+let totalBill = bill1 + calTip;
+let amount = (Math.floor(totalBill));
+console.log(`Table number one has paid ${amount} euros rounded today`); // this is the total amount the customer have spent 
