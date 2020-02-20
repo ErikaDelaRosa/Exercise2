@@ -1,0 +1,18 @@
+/*Find 3 exercises that you have did in 3 ways, or do 3 exercises in 3 ways if you haven’t did that yet.
+Create 3 repository’s (each exercise get one repo).
+Add 3 branches in every repo (each branch has a different solution).
+Upload 3 photos (one photo to each branch) to your README.md showing your code and the console part, 
+explain your steps and links to your resources (mdn or so).*/ 
+
+
+///*Calculate the three bills including tips: €26.67 + 15% tip. */
+
+//table 2. here i tried to use a function, as it can be reusable, we just add the total bill and the desired tip
+function totalBillmath (bill, tip) { 
+    let calculateTip = bill * tip / 100; // here i found out how much is the % to be add to total
+    console.log(calculateTip);
+    let finalBill = bill + calculateTip;
+    console.log(Math.floor(finalBill)); // total including the tip 
+    }
+    totalBillmath(26.67, 15); //this can be reusable 
+    
